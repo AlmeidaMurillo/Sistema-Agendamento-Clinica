@@ -1,0 +1,138 @@
+.paciente-container {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f7f8fa;
+}
+
+.pacienteheader {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pacientenav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-buttonpaciente {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.nav-buttonpaciente:hover {
+    color: #000000;
+}
+
+.main-contentpaciente {
+    padding: 20px;
+    flex: 1;
+}
+
+.filterspaciente {
+    margin-bottom: 20px;
+}
+
+.filter-inputpaciente {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+}
+
+.paciente-list {
+    margin-top: 20px;
+}
+
+.paciente-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.paciente-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.paciente-item p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.action-buttonspaciente {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.action-buttonpaciente {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.action-buttonpaciente i {
+    margin-right: 5px;
+}
+
+.action-buttonpaciente.excluir {
+    background-color: red;
+    color: white;
+}
+
+.action-buttonpaciente.excluir:hover {
+    background-color: darkred;
+}
+
+.action-buttonpaciente.editar {
+    background-color: blue;
+    color: white;
+}
+
+.action-buttonpaciente.editar:hover {
+    background-color: darkblue;
+}
+
+.paciente-list {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+.btncadastrarr {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 200px;
+    transition: background-color 0.3s;
+}
+
+.btncadastrarr:hover {
+    background-color: #393941;
+}

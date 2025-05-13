@@ -1,0 +1,9 @@
+<script>start("c:\\Users\\almei\\Desktop\\projetoreact\\aulareact\\");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("node_modules","node_modules",1,0,"0 B",1741669479,"11/03/2025, 02:04:39");</script>
+<script>addRow("public","public",1,0,"0 B",1740771953,"28/02/2025, 16:45:53");</script>
+<script>addRow("src","src",1,0,"0 B",1742095943,"16/03/2025, 00:32:23");</script>
+<script>addRow(".gitignore",".gitignore",0,310,"310 B",1740701636,"27/02/2025, 21:13:56");</script>
+<script>addRow("package-lock.json","package-lock.json",0,667557,"652 kB",1741669480,"11/03/2025, 02:04:40");</script>
+<script>addRow("package.json","package.json",0,954,"954 B",1741585997,"10/03/2025, 02:53:17");</script>
+<script>addRow("README.md","README.md",0,3359,"3.3 kB",1740771674,"28/02/2025, 16:41:14");</script>

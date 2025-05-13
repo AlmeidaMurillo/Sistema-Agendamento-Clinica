@@ -1,0 +1,123 @@
+
+.agendamento-container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.agendamento-container i{
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.agendamento-container i:hover{
+    color: #555;
+}
+
+.agendamento-container h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.agendamento-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.agendamento-form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.agendamento-form label {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.agendamento-form input,
+.selectagendamento {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+.agendamento-form input:focus,
+.selectagendamento:focus {
+    border-color: #0056b3;
+    background-color: #eef6fc;
+}
+
+.agendamento-form button {
+    padding: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.agendamento-form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.agendamento-form .message,
+.agendamento-form .error-message {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.agendamento-form .message {
+    color: #28a745; 
+    background-color: #e9f7e8;
+}
+
+.agendamento-form .error-message {
+    color: #dc3545; 
+    background-color: #f8d7da;
+}
+
+.suggestions {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 50%;
+    margin-top: 80px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 10;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.suggestion-item:hover,
+.suggestion-item.selected {
+    background-color: #f0f0f0;
+}
+
+.loading {
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+}

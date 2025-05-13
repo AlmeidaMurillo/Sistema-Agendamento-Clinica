@@ -1,0 +1,119 @@
+.containerhome {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f7f8fa;
+}
+
+.headerhome {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navhome {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-buttonhome {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.nav-buttonhome:hover {
+    color: #000000;
+}
+
+.main-contenthome {
+    padding: 20px;
+    flex: 1;
+}
+
+.filtershome {
+    margin-bottom: 20px;
+}
+
+.filter-inputhome {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+}
+
+.consulta-listhome {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.consulta-infohome {
+    display: flex;
+    flex-direction: column;
+}
+
+.consulta-itemhome {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.consulta-itemhome p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.action-buttonshome {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.action-buttonhome {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.action-buttonhome i {
+    margin-right: 5px;
+}
+
+.action-buttonhome.excluir {
+    background-color: red;
+    color: white;
+}
+
+.action-buttonhome.excluir:hover {
+    background-color: darkred;
+}
+
+.action-buttonhome.editar {
+    background-color: blue;
+    color: white;
+}
+
+.action-buttonhome.editar:hover {
+    background-color: darkblue;
+}
