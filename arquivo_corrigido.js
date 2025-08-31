@@ -1,1 +1,1 @@
-// PATCH SIMULADO PARA: Correção automática do DevBot
+// Falha ao gerar patch para: Crie uma função `soma(a, b)` que retorne a soma de a + b.
