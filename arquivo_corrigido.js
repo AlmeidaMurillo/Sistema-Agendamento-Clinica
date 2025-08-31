@@ -1,0 +1,1 @@
+// PATCH SIMULADO PARA: Crie uma função `soma(a, b)` que retorne a soma de a + b.
